@@ -18,6 +18,31 @@ VALUES (5, 'Biquíni Ripple', 'Biquíni Ripple, também conhecido como "empina b
 
 SELECT * FROM produto 
 
+--Taissa
+
+INSERT INTO funcionario (nome, cpf) VALUES 
+("João","829.617.175-90"),
+("Gabriela", "248.284.013-93"),
+("Pedro", "701.476.232-00"),
+("Maria", "661.418.542-06"),
+("Larissa", "728.068.519-63");
+
+-- paula beatriz
+
+create table categoria(
+id integer primary key autoincrement,
+nome text,
+descricao text
+)
+
+insert into categoria (nome, descricao_cate, id_produto, id_funcionario)
+values
+('praia', 'moda praia'),
+('infantil', 'moda infatil'),
+('masculino', 'moda masculina'),
+('feminina', 'moda feminina' ),
+('recem nascido', 'moda RN');
+
 -- rafael
 
 -- Tabela de itensPedido
